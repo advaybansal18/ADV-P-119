@@ -1,0 +1,35 @@
+body{
+  background-color: aqua;
+}
+#show_sketch{
+    float:right;
+}
+h1{
+  background-color: bisque;
+  color:black;
+}
+canvas{
+    border:5px solid red;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes example{
+    from{box-shadow: 5px 7px 10px beige;}
+    to{box-shadow: 5px 7px 10px crimson;}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.btn-lg:hover{
+    background-color:green;
+}
+#score{
+    float:left;
+}
+#timer{
+    float:right;
+}
